@@ -1,6 +1,7 @@
 # Mopidy
 
 Mopidy with plugins inside Home Assistant Supervisor.
+Test
 
 ![Addon Stage][stage-badge]
 ![Supports aarch64 Architecture][aarch64-badge]
