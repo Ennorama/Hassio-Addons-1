@@ -27,6 +27,10 @@ FROM build-base AS mopidy-radionet
 RUN pip3 install --no-cache-dir --user Mopidy-RadioNet==0.2.2 &&\
       ls -al /root/.local/lib/python3.10/site-packages
 
+RUN pip3 install --no-cache-dir --user Mopidy-TuneIn==1.1.0 &&\
+      ls -al /root/.local/lib/python3.10/site-packages
+
+
 
 FROM $BUILD_FROM AS run
 
