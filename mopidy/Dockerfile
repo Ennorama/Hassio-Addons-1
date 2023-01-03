@@ -29,7 +29,7 @@ RUN pip3 install --no-cache-dir --user Mopidy-RadioNet==0.2.2 &&\
 
 FROM build-base AS mopidy-tunein  
 
-RUN pip3 install --no-cache-dir --user Mopidy-TuneIn &&\
+RUN pip3 install --no-cache-dir --user Mopidy-TuneIn=1.1.0 &&\
       ls -al /root/.local/lib/python3.10/site-packages
 
 
